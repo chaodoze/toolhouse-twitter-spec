@@ -1,0 +1,31 @@
+[
+  {
+    "id": "search_twitter",
+    "logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWdsb2JlIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxwYXRoIGQ9Ik0xMiAyYTE0LjUgMTQuNSAwIDAgMCAwIDIwIDE0LjUgMTQuNSAwIDAgMCAwLTIwIi8+PHBhdGggZD0iTTIgMTJoMjAiLz48L3N2Zz4=",
+    "title": "Search Twitter",
+    "category": "Communication",
+    "short_description": "Search for tweets on Twitter using keywords",
+    "long_description": "This plugin allows you to search for tweets on Twitter using specified keywords. Returns relevant tweets together with author, and timestamp as well as metrics like number of views, likes, reposts and bookmarks for each tweet.",
+    "price_per_execution": 3,
+    "url": "https://example.com/send_email",
+    "description_for_model": "Search for tweets using keywords. Returns relevant tweets together with author, and timestamp as well as metrics like number of views, likes, reposts and bookmarks for each tweet.",
+    "arguments": [
+      {
+        "name": "query",
+        "type": "string",
+        "label": "Search query",
+        "description": "The keywords to search for on Twitter.",
+        "from": "llm",
+        "required": true
+      },
+      {
+        "name": "max_results",
+        "type": "integer",
+        "label": "Max results",
+        "description": "The maximum number of tweets to return (upper bound is 100). Defaults to 10.",
+        "from": "llm",
+        "required": false
+      }
+    ]
+  }
+]
