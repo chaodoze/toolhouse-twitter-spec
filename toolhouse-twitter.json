@@ -7,7 +7,7 @@
     "short_description": "Search for tweets on Twitter using keywords",
     "long_description": "This plugin allows you to search for tweets on Twitter using specified keywords. Returns relevant tweets together with author, and timestamp as well as metrics like number of views, likes, reposts and bookmarks for each tweet.",
     "price_per_execution": 3,
-    "url": "https://example.com/send_email",
+    "url": "https://toolhouse-twitter.vercel.app/api",
     "description_for_model": "Search for tweets using keywords. Returns relevant tweets together with author, and timestamp as well as metrics like number of views, likes, reposts and bookmarks for each tweet.",
     "arguments": [
       {
